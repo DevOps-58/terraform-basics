@@ -6,6 +6,6 @@ output "kiwi" {
 }
 
 output "apple" {
-    value = "apple color is ${lookup(var.fruits["apple"] , color , pink)}"
+    value = "apple color is ${lookup(var.fruits["apple"], "color" , "pink")}"
   
 }
