@@ -1,11 +1,11 @@
 variable "fruits" {}
 
 output "kiwi" {
-    value = "kiwi - ${var.fruits["kiwi"]["price"]}"
+    value = "kiwi price is ${var.fruits["kiwi"]["price"]} and color is ${var.fruits["kiwi"]["green"]}"
   
 }
 
 output "apple" {
-    value = "apple - ${var.fruits["apple"]["color"]}"
+    value = "apple color is ${var.fruits["apple"]["color"]}"
   
 }
