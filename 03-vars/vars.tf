@@ -64,3 +64,14 @@ output "rank" {
     value = var.state_rank
   
 }
+
+variable "env" {}
+variable "ins_type" {}
+
+
+output "env" {
+    value = "current environment is ${var.env} and here we use only ${var.ins_type}"
+  
+}
+
+  
