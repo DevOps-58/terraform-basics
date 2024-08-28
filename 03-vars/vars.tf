@@ -13,7 +13,7 @@ variable "fruit" {
   
 }
 
-output "op" {
+output "Ans" {
     value = var.fruit
   
 }
