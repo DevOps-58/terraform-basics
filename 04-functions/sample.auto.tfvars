@@ -1,6 +1,6 @@
 fruits = {
     apple = {
-        color = "red"
+        #color = "red"
         price = "100"
         metric = "kg"
     }
