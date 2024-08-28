@@ -74,4 +74,10 @@ output "env" {
   
 }
 
+variable "name" {}
+output "name" {
+    value = "My name is ${var.name}"
+  
+}
+
   
