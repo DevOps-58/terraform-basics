@@ -55,3 +55,12 @@ output "m_op" {
     value = "${var.m["name"]} is a ${var.m["content"]} engineer and her salary is ${var.m["salary"]}"
   
 }
+
+
+variable "state_rank"{}
+  
+
+output "rank" {
+    value = var.state_rank
+  
+}
