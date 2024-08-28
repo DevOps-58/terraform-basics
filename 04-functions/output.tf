@@ -1,7 +1,7 @@
 variable "fruits" {}
 
 output "kiwi" {
-    value = "kiwi price is ${var.fruits["kiwi"]["price"]} and color is ${var.fruits["kiwi"]["green"]}"
+    value = "kiwi price is ${var.fruits["kiwi"]["price"]} and color is ${var.fruits["kiwi"]["color"]}"
   
 }
 
