@@ -13,15 +13,15 @@ variable "components" {
   default = {
     
     frontend = {
-      instance_type = "t3small"
+      instance_type = "t3.small"
     }
 
     backend = {
-      instance_type = "t3micro"
+      instance_type = "t3.micro"
     }
 
     mysql = {
-      instance_type = "t2micro"
+      instance_type = "t2.micro"
     }
   }
   
