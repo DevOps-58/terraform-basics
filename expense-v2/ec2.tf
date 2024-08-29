@@ -5,7 +5,7 @@ resource "aws_instance" "main" {
   vpc_security_group_ids = ["sg-08e172f087724018a"]
 
   tags = {
-    Name = "frontend"
+    Name = var.components[count.index]
   }
 }
 
