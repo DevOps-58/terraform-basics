@@ -1,7 +1,8 @@
 provider "aws" {}
+
 resource "aws_instance" "web" {
   ami           = "ami-0fcc78c828f981df2"
-  instance_type = var.env == dev ? "t3.micro" : "t3.medium"
+  instance_type = var.env == "dev" ? "t3.micro" : "t3.medium"
 
   tags = {
     Name = "my-tf-instance"
