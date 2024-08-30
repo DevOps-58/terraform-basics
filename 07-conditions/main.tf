@@ -9,6 +9,6 @@ resource "aws_instance" "web" {
 }
 
 variable "env" {
-    default = "dev"
+    default = "prod"
   
 }
